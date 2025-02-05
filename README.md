@@ -14,7 +14,7 @@ How to run via .py file:
 
 Special commands:
 
-Special commands(marks) must be start on ``~~``
+Special commands(marks) must be started on ``~~``
 
 ``~~nn`` (no number)- puts into the ``file number`` quere (copies file without a number)
 ``~~rmall/all`` (remove all)- puts into the path quere (removes an "output" directory)
