@@ -22,8 +22,9 @@ elif number == ('~~nn'):
 else:
     number = int(number)
 
-cp= f'cp {path} output/{fname}{number}'
 sure= input('\nAre you sure? [y], [n]: ')
+
+cp= f'cp {path} output/{fname}{number}'
 permission= f'chmod 777 ./output; chmod 777 output/*'
 
 if sure== ('y'):
